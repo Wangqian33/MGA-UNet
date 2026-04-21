@@ -12,13 +12,13 @@ This repository contains the official PyTorch implementation of the paper:
 # Dataset Preparation
 
 Your raw data should be organized as:
-raw_data/
-├── train/
-│ ├── patient001/ # CT slices
-│ └── patient002/
-└── label/
-├── patient001/ # corresponding masks
-└── patient002/
+#raw_data/
+#├── train/
+#│ ├── patient001/ # CT slices
+#│ └── patient002/
+#└── label/
+#├── patient001/ # corresponding masks
+#└── patient002/
 
 Run `organize_dataset.py` to convert it into the required structure (train/val/test split, images and masks flattened).
 
